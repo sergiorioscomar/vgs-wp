@@ -1,0 +1,20 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `utilities` layer
+ *
+ * Add your own utility classes to this theme. Complex utility classes should
+ * be added using Tailwind’s plugin system:
+ *
+ * https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities
+ */
+
+/* Custom: Max width for container */
+.container {
+    max-width: 1309px !important;
+}
+
+/* Custom: Override md:w-1/3 width */
+@media (width >= 48rem) {
+    .md\:w-1\/3 {
+        width: 30%;
+    }
+}
