@@ -1,0 +1,11 @@
+# Ignorar TODO
+*
+
+# Permitir git
+!.gitignore
+
+
+
+# Docs
+!README.md
+!docs/**/*.md
