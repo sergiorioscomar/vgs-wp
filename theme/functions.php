@@ -229,9 +229,9 @@ require get_template_directory() . '/inc/template-functions.php';
 
 /**
  * Hero Slides Custom Post Type.
+ *
+ *require get_template_directory() . '/inc/hero-slides-cpt.php';
  */
-require get_template_directory() . '/inc/hero-slides-cpt.php';
-
 /**
  * Products Custom Post Type.
  */
