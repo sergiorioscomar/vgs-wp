@@ -243,7 +243,7 @@ if (has_post_thumbnail()) {
 	<!-- ABOUT SECTION -->
 	<section class="pt-12 pb-16 bg-white overflow-hidden relative z-0">
 		<div class="container mx-auto px-4">
-			<div class="flex flex-col md:flex-row items-start gap-11">
+			<div class="flex flex-col md:flex-row items-start gap-10">
 				<div class="w-full md:w-1/3">
 					<div class="max-w-[320px] md:max-w-[360px] mx-auto md:mx-0">
 						<img src="<?php echo esc_url($assets_uri . '/image-1.png'); ?>" alt="Nave industrial" class="w-full h-auto object-cover">
