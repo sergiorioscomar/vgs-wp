@@ -4,6 +4,15 @@ Este es el tema de WordPress para la landing page de **VGS**, basado en el frame
 
 ![Landing Page Preview](theme/screenshot.png)
 
+## 🎥 Video Explicativo
+
+Puedes ver una guía en video sobre cómo configurar y utilizar este tema:
+
+[📺 Ver Video Explicativo](https://drive.google.com/file/d/1htcXfv5WmC_Ibf7CyiubFflyZkfmmtm2/view?usp=drive_link)
+
+---
+
+
 ## 📋 Requisitos del Entorno
 
 Para trabajar con este tema, necesitarás:
@@ -83,5 +92,7 @@ El slider principal (Hero Section) se gestiona mediante el Custom Post Type **"H
 - **Tailwind CSS 4**: Se utiliza para el diseño visual, permitiendo un desarrollo ágil y consistente.
 - **esbuild**: Encargado de empaquetar el JavaScript para máxima velocidad.
 - **_tw Framework**: Estructura basada en este starter theme que separa la lógica de construcción de los archivos del tema final.
+- **Gestión del Proyecto**: Se aplicaron metodologías ágiles utilizando el método **Kanban** para el seguimiento de tareas y objetivos. Puedes ver el tablero del proyecto aquí:
+  - [📋 Tablero Kanban - GitHub Projects](https://github.com/users/sergiorioscomar/projects/15)
 - **Header/Footer Landing**: Se utilizan templates personalizados `header-landing.php` y `footer-landing.php` para mantener una estructura de landing page limpia.
 - **Mobile-first**: Todo el diseño está optimizado para dispositivos móviles desde la base.
