@@ -58,38 +58,38 @@ if (has_post_thumbnail()) {
 
 			<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
 				<!-- Item 1 -->
-				<div class="flex items-center space-x-4 p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
-					<div class="w-12 h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
+				<div class="flex items-center space-x-4 md:space-x-2 lg:space-x-4 p-4 md:p-2 lg:p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
+					<div class="w-12 md:w-[32px] lg:w-12 h-12 md:h-[32px] lg:h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
 						<img src="<?php echo esc_url($assets_uri . '/vector-2.png'); ?>" class="w-full h-full object-contain" alt="">
 					</div>
-					<div class="text-[#2E3A8C] font-semibold text-sm leading-tight font-['Roboto']">
+					<div class="text-[#2E3A8C] font-semibold text-xs md:text-[11px] lg:text-sm leading-tight font-['Roboto']">
 						Atención<br>real y personalizada
 					</div>
 				</div>
 				<!-- Item 2 -->
-				<div class="flex items-center space-x-4 p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
-					<div class="w-12 h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
+				<div class="flex items-center space-x-4 md:space-x-2 lg:space-x-4 p-4 md:p-2 lg:p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
+					<div class="w-12 md:w-[32px] lg:w-12 h-12 md:h-[32px] lg:h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
 						<img src="<?php echo esc_url($assets_uri . '/vector-3.png'); ?>" class="w-full h-full object-contain" alt="">
 					</div>
-					<div class="text-[#2E3A8C] font-semibold text-sm leading-tight font-['Roboto']">
+					<div class="text-[#2E3A8C] font-semibold text-xs md:text-[11px] lg:text-sm leading-tight font-['Roboto']">
 						Asesoramiento<br>técnico especializado
 					</div>
 				</div>
 				<!-- Item 3 -->
-				<div class="flex items-center space-x-4 p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
-					<div class="w-12 h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
+				<div class="flex items-center space-x-4 md:space-x-2 lg:space-x-4 p-4 md:p-2 lg:p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
+					<div class="w-12 md:w-[32px] lg:w-12 h-12 md:h-[32px] lg:h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
 						<img src="<?php echo esc_url($assets_uri . '/vector-4.png'); ?>" class="w-full h-full object-contain" alt="">
 					</div>
-					<div class="text-[#2E3A8C] font-semibold text-sm leading-tight font-['Roboto']">
+					<div class="text-[#2E3A8C] font-semibold text-xs md:text-[11px] lg:text-sm leading-tight font-['Roboto']">
 						Logística<br>eficiente y adaptable
 					</div>
 				</div>
 				<!-- Item 4 -->
-				<div class="flex items-center space-x-4 p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
-					<div class="w-12 h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
+				<div class="flex items-center space-x-4 md:space-x-2 lg:space-x-4 p-4 md:p-2 lg:p-4 rounded-lg group hover:shadow-lg transition-shadow" style="background: #E8EDEF66;">
+					<div class="w-12 md:w-[32px] lg:w-12 h-12 md:h-[32px] lg:h-12 flex-shrink-0 text-[#9FCE00] group-hover:scale-110 transition-transform">
 						<img src="<?php echo esc_url($assets_uri . '/vector-5.png'); ?>" class="w-full h-full object-contain" alt="">
 					</div>
-					<div class="text-[#2E3A8C] font-semibold text-sm leading-tight font-['Roboto']">
+					<div class="text-[#2E3A8C] font-semibold text-xs md:text-[11px] lg:text-sm leading-tight font-['Roboto']">
 						Compromiso con la calidad
 					</div>
 				</div>
@@ -162,27 +162,24 @@ if (has_post_thumbnail()) {
 			<?php echo do_shortcode('[lp_products limit="6" cols="3"]'); ?>
 		</div>
 	</section>
-	<!-- QUOTE FORM SECTION -->
+	<!-- QUOTE FORM SECTION 
 	<section class="py-16 relative z-10" style="background: #E8EDEF;">
 		<div class="container mx-auto px-4 relative" style="max-width: 1309px;">
-			<!-- Decorative "Pide PRESUPUESTO" is centered top or part of design. 
-			     Mockup puts it above form or overlapping. -->
 			<div class="text-center mb-8">
 				<h2 class="text-4xl font-bold text-[#2E3A8C] font-['Roboto']">
 					Pide
 					<span class="text-[#9FCE00] relative inline-block">
 						PRESUPUESTO
 						<span class="block mt-2 mx-auto w-[270px] h-[25px]">
-							<img src="<?php echo esc_url($assets_uri . '/Page-1.png'); ?>" class="w-full h-full object-contain" alt="">
+							<img src="<? // php echo esc_url($assets_uri . '/Page-1.png'); 
+										?>" class="w-full h-full object-contain" alt="">
 						</span>
 					</span>
 				</h2>
-				<!-- Underline squiggle -->
 			</div>
 
 			<form class="space-y-6">
 				<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-					<!-- Row 1 -->
 					<div>
 						<label class="block text-xs font-bold text-gray-700 mb-1 font-['Roboto']" for="nombre">Nombre*</label>
 						<input class="w-full rounded border-gray-300 p-2 bg-white shadow-sm focus:border-blue-500 focus:ring-blue-500" type="text" id="nombre" placeholder="Nombre">
@@ -196,7 +193,6 @@ if (has_post_thumbnail()) {
 						<input class="w-full rounded border-gray-300 p-2 bg-white shadow-sm focus:border-blue-500 focus:ring-blue-500" type="email" id="email" placeholder="mail@mail.com">
 					</div>
 
-					<!-- Row 2 -->
 					<div>
 						<label class="block text-xs font-bold text-gray-700 mb-1 font-['Roboto']" for="material">Material*</label>
 						<select class="w-full rounded border-gray-300 p-2 bg-white shadow-sm focus:border-blue-500 focus:ring-blue-500" id="material">
@@ -217,7 +213,6 @@ if (has_post_thumbnail()) {
 					</div>
 				</div>
 
-				<!-- Checkbox -->
 				<div class="text-xs text-gray-600 font-['Roboto']">
 					<div class="flex items-start mb-2">
 						<input type="checkbox" class="mt-1 mr-2 rounded border-gray-300" id="info">
@@ -233,19 +228,22 @@ if (has_post_thumbnail()) {
 		</div>
 	</section>
 
-	<!-- Button between sections -->
 	<div class="relative -mt-6 mb-6 z-30 flex justify-center">
 		<button type="button" class="bg-[#2E3A8C] text-white font-bold py-3 px-12 rounded-full hover:bg-opacity-90 transition-colors uppercase text-sm shadow-xl font-['Roboto']">
 			PIDE PRESUPUESTO
 		</button>
-	</div>
+	</div>-->
+	<!-- END QUOTE FORM SECTION -->
+
+	<!-- Plugin FORM Pide Presupuesto -->
+	<?php echo do_shortcode('[pide_presupuesto to="serggio.rs@gmail.com" subject="Lead - Presupuesto" redirect="https://tusitio.com/gracias/"]'); ?>
 
 	<!-- ABOUT SECTION -->
 	<section class="pt-12 pb-16 bg-white overflow-hidden relative z-0">
 		<div class="container mx-auto px-4">
-			<div class="flex flex-col md:flex-row items-start gap-10">
+			<div class="flex flex-col md:flex-row items-start gap-11 md:gap-4">
 				<div class="w-full md:w-1/3">
-					<div class="max-w-[320px] md:max-w-[360px] mx-auto md:mx-0">
+					<div class="max-w-[300px] md:max-w-[360px] mx-auto md:mx-0">
 						<img src="<?php echo esc_url($assets_uri . '/image-1.png'); ?>" alt="Nave industrial" class="w-full h-auto object-cover">
 					</div>
 				</div>
@@ -255,16 +253,16 @@ if (has_post_thumbnail()) {
 						<img src="<?php echo esc_url($assets_uri . '/vector.png'); ?>" class="w-full h-full object-contain" alt="">
 					</div>
 
-					<h2 class="text-3xl font-bold text-[#2E3A8C] mb-4 font-['Roboto']">
+					<h2 class="text-3xl md:text-2xl lg:text-3xl font-bold text-[#2E3A8C] mb-4 font-['Roboto']">
 						Profesionales y <span class="text-[#9FCE00]">CERCANOS</span>
 					</h2>
-					<p class="text-gray-600 mb-4 text-base leading-loose font-['Roboto'] max-w-3xl">
+					<p class="text-gray-600 mb-4 text-base md:text-xs lg:text-base leading-loose font-['Roboto'] max-w-3xl">
 						Por eso, en <strong>XXXXXX</strong> estamos en constante desarrollo en los materiales y técnicas de la construcción modular prefabricada.
 					</p>
-					<p class="text-gray-600 mb-4 text-base leading-loose font-['Roboto'] max-w-3xl">
+					<p class="text-gray-600 mb-4 text-base md:text-xs lg:text-base leading-loose font-['Roboto'] max-w-3xl">
 						Contamos con un excelente equipo de ingenieros, delineantes, técnicos y montadores con experiencia y profesionalidad con el fin de que el cliente siempre tenga el mejor resultado posible.
 					</p>
-					<p class="text-gray-600 mb-8 text-base leading-loose font-['Roboto'] max-w-3xl">
+					<p class="text-gray-600 mb-8 text-base md:text-xs lg:text-base leading-loose font-['Roboto'] max-w-3xl">
 						Nos encanta asesorarte e intentar dar solución a tus inquietudes y proyectos y para ello creemos en el trato personal y humano para poder resolver todas tus dudas.
 					</p>
 
@@ -316,83 +314,100 @@ if (has_post_thumbnail()) {
 				</h2>
 				<!-- Navigation buttons centered on mobile, right-aligned on desktop -->
 				<div class="flex space-x-2 justify-center md:justify-end">
-					<button class="w-10 h-10 rounded-full border border-[#2E3A8C] text-[#2E3A8C] flex items-center justify-center hover:bg-[#2E3A8C] hover:text-white transition-colors">
+					<button id="testimonials-prev" class="w-10 h-10 rounded-full border border-[#2E3A8C] text-[#2E3A8C] flex items-center justify-center hover:bg-[#2E3A8C] hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
 						<span class="sr-only">Previous</span>
 						&larr;
 					</button>
-					<button class="w-10 h-10 rounded-full bg-[#2E3A8C] text-white flex items-center justify-center hover:bg-opacity-90 transition-colors">
+					<button id="testimonials-next" class="w-10 h-10 rounded-full bg-[#2E3A8C] text-white flex items-center justify-center hover:bg-opacity-90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
 						<span class="sr-only">Next</span>
 						&rarr;
 					</button>
 				</div>
 			</div>
 
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-				<!-- Review 1 -->
-				<div class="bg-white p-6 rounded-lg shadow-sm">
-					<div class="flex items-start mb-4">
-						<!-- Avatar -->
-						<div class="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
-							<img src="<?php echo esc_url($assets_uri . '/image-2.png'); ?>" alt="Carlos Javier" class="w-full h-full object-cover">
-						</div>
-						<!-- Vertical divider -->
-						<div class="w-px h-12 bg-gray-300 mx-3"></div>
-						<!-- Name and stars container -->
-						<div class="flex-1 flex flex-col">
-							<div class="flex items-start justify-between">
-								<div class="font-bold text-[#2E3A8C] font-['Roboto'] text-sm">Carlos Javier</div>
-								<div class="text-yellow-400 text-base">★★★★★</div>
+			<div class="relative overflow-hidden">
+				<div id="testimonials-slider" class="flex gap-6 transition-transform duration-500 ease-in-out" style="width: max-content;">
+					<?php
+					// Query ALL testimonials from database
+					$testimonials_query = new WP_Query(array(
+						'post_type'      => 'testimonial',
+						'posts_per_page' => -1, // Get all testimonials
+						'orderby'        => 'date',
+						'order'          => 'DESC',
+						'post_status'    => 'publish',
+					));
+
+					if ($testimonials_query->have_posts()) :
+						$testimonial_count = 0;
+						while ($testimonials_query->have_posts()) :
+							$testimonials_query->the_post();
+							$testimonial_count++;
+
+							// Get testimonial data
+							$client_name = get_post_meta(get_the_ID(), '_vgs_testimonial_client_name', true);
+							$rating = get_post_meta(get_the_ID(), '_vgs_testimonial_rating', true);
+							$testimonial_date = get_post_meta(get_the_ID(), '_vgs_testimonial_date', true);
+
+							// Fallbacks
+							if (empty($client_name)) {
+								$client_name = 'Cliente Anónimo';
+							}
+							if (empty($rating)) {
+								$rating = 5;
+							}
+							if (empty($testimonial_date)) {
+								$testimonial_date = get_the_date('d/m/Y');
+							}
+
+							// Get thumbnail
+							$thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
+							if (empty($thumbnail_url)) {
+								$thumbnail_url = $assets_uri . '/image-2.png'; // Fallback avatar
+							}
+
+							// Generate stars
+							$stars = str_repeat('★', intval($rating));
+					?>
+							<!-- Review -->
+							<div class="testimonial-item bg-white p-6 rounded-lg shadow-sm flex-shrink-0" style="width: calc((100% - 3rem) / 3); min-width: 300px;">
+								<div class="flex items-start mb-4">
+									<!-- Avatar -->
+									<div class="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
+										<img src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php echo esc_attr($client_name); ?>" class="w-full h-full object-cover">
+									</div>
+									<!-- Vertical divider -->
+									<div class="w-px h-12 bg-gray-300 mx-3"></div>
+									<!-- Name and stars container -->
+									<div class="flex-1 flex flex-col">
+										<div class="flex items-start justify-between">
+											<div class="font-bold text-[#2E3A8C] font-['Roboto'] text-sm"><?php echo esc_html($client_name); ?></div>
+											<div class="text-yellow-400 text-base"><?php echo esc_html($stars); ?></div>
+										</div>
+										<div class="text-xs text-gray-400 font-['Roboto'] text-right mt-1"><?php echo esc_html($testimonial_date); ?></div>
+									</div>
+								</div>
+								<p class="text-gray-600 text-xs leading-relaxed font-['Roboto']">
+									<?php echo wp_trim_words(get_the_content(), 30, '...'); ?>
+								</p>
 							</div>
-							<div class="text-xs text-gray-400 font-['Roboto'] text-right mt-1">30/01/2024</div>
+						<?php
+						endwhile;
+						?>
+						<script>
+							// Store total testimonials count for slider
+							window.testimonialsTotalCount = <?php echo $testimonial_count; ?>;
+						</script>
+					<?php
+						wp_reset_postdata();
+					else :
+						// Fallback: Show message if no testimonials exist
+					?>
+						<div class="col-span-full text-center py-12">
+							<p class="text-gray-600 text-lg">No hay testimoniales disponibles. <a href="<?php echo admin_url('post-new.php?post_type=testimonial'); ?>" class="text-[#9FCE00] hover:underline">Agregar testimoniales</a></p>
 						</div>
-					</div>
-					<p class="text-gray-600 text-xs leading-relaxed font-['Roboto']">
-						Me considero un cliente satisfecho. Me asesoraron como ninguna otra empresa. Cumplieron en los tiempos y excelente trato humano.
-					</p>
-				</div>
-				<!-- Review 2 -->
-				<div class="bg-white p-6 rounded-lg shadow-sm">
-					<div class="flex items-start mb-4">
-						<!-- Avatar -->
-						<div class="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
-							<img src="<?php echo esc_url($assets_uri . '/image-2.png'); ?>" alt="Carlos Javier" class="w-full h-full object-cover">
-						</div>
-						<!-- Vertical divider -->
-						<div class="w-px h-12 bg-gray-300 mx-3"></div>
-						<!-- Name and stars container -->
-						<div class="flex-1 flex flex-col">
-							<div class="flex items-start justify-between">
-								<div class="font-bold text-[#2E3A8C] font-['Roboto'] text-sm">Carlos Javier</div>
-								<div class="text-yellow-400 text-base">★★★★★</div>
-							</div>
-							<div class="text-xs text-gray-400 font-['Roboto'] text-right mt-1">30/01/2024</div>
-						</div>
-					</div>
-					<p class="text-gray-600 text-xs leading-relaxed font-['Roboto']">
-						Atención muy buena por parte del comercial y entrega muy rápida.
-					</p>
-				</div>
-				<!-- Review 3 -->
-				<div class="bg-white p-6 rounded-lg shadow-sm">
-					<div class="flex items-start mb-4">
-						<!-- Avatar -->
-						<div class="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
-							<img src="<?php echo esc_url($assets_uri . '/image-2.png'); ?>" alt="Carlos Javier" class="w-full h-full object-cover">
-						</div>
-						<!-- Vertical divider -->
-						<div class="w-px h-12 bg-gray-300 mx-3"></div>
-						<!-- Name and stars container -->
-						<div class="flex-1 flex flex-col">
-							<div class="flex items-start justify-between">
-								<div class="font-bold text-[#2E3A8C] font-['Roboto'] text-sm">Carlos Javier</div>
-								<div class="text-yellow-400 text-base">★★★★★</div>
-							</div>
-							<div class="text-xs text-gray-400 font-['Roboto'] text-right mt-1">30/01/2024</div>
-						</div>
-					</div>
-					<p class="text-gray-600 text-xs leading-relaxed font-['Roboto']">
-						Necesitaba unos paneles para un trabajo en mi casa, fui de forma particular y me atendieron muy bien...
-					</p>
+					<?php
+					endif;
+					?>
 				</div>
 			</div>
 		</div>

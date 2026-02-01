@@ -230,3 +230,8 @@ require get_template_directory() . '/inc/hero-slides-cpt.php';
  */
 require get_template_directory() . '/inc/products-cpt.php';
 
+/**
+ * Testimonials Custom Post Type.
+ */
+require get_template_directory() . '/inc/testimonials-cpt.php';
+

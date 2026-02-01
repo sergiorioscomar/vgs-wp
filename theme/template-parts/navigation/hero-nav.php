@@ -8,7 +8,7 @@
 ?>
 
 <!-- Navbar (Inside Hero) -->
-<nav class="absolute top-[20px] right-0 w-full md:max-w-[811px] px-4 md:px-0 text-white text-[16px] font-semibold leading-[22px]">
+<nav class="absolute top-[20px] right-0 w-full md:max-w-[811px] px-4 md:px-0 text-white text-[16px] md:text-[14px] lg:text-[16px] font-semibold leading-[22px]">
 	<!-- Hamburger Button (Mobile Only) -->
 	<button id="mobile-menu-toggle" class="md:hidden fixed top-[70px] right-4 flex items-center justify-center w-10 h-10 z-[9999] bg-[#2E3A8C] bg-opacity-90 rounded-md">
 		<svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
