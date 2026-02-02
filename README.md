@@ -66,6 +66,38 @@ Para que la sección de productos funcione correctamente, es necesario instalar 
 4. **Shortcode:** Puedes insertar el listado de productos en cualquier página usando:
    `[lp_products limit="6" cols="3"]`
 
+## 📧 Plugin de Formulario de Presupuesto (Pide Presupuesto)
+
+Este plugin permite agregar formularios de solicitud de presupuesto mediante shortcode, con envío por email y redirección personalizable.
+
+### Instalación
+
+1. Clona el repositorio del plugin en tu carpeta de plugins:
+   ```bash
+   cd wp-content/plugins/
+   git clone git@github.com:sergiorioscomar/pide_presupuesto.git
+   ```
+
+2. Activa el plugin **Pide Presupuesto** desde el panel de administración de WordPress.
+
+### Uso del Shortcode
+
+**Shortcode básico:**
+```
+[pide_presupuesto]
+```
+
+**Shortcode con parámetros personalizados:**
+```
+[pide_presupuesto to="email@dominio.com" subject="Lead - Presupuesto" redirect="https://tusitio.com/gracias/"]
+```
+
+### Parámetros disponibles:
+
+- `to`: Email de destino (por defecto: email del administrador)
+- `subject`: Asunto del email (por defecto: "Nueva solicitud de presupuesto")
+- `redirect`: URL de redirección tras enviar el formulario (por defecto: `/gracias/`)
+
 ## 📥 Importación de Demo Content
 
 El tema incluye contenido de ejemplo para facilitar la configuración inicial. Puedes encontrar los archivos en la carpeta `/demo-content/`.
